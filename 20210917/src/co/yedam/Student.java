@@ -1,6 +1,10 @@
 package co.yedam;
 
 public class Student {	
-		String name;
-		int score;	
+		String name; // defalut
+		int score;	// defalut
+		
+		public Student() {
+			
+		}
 }

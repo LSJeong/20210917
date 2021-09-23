@@ -26,5 +26,9 @@ public class MemberExample {
 		for (Member member : members) {
 			member.showInfO();
 		}
+		
+		Student s1 = new Student();
+		s1.name = "Hong";
+		s1.score = 90;
 	}
 }

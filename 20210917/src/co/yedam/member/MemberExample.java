@@ -1,5 +1,7 @@
 package co.yedam.member;
 
+import co.yedam.Student;
+
 public class MemberExample {
 	public static void main(String[] args) {
 		Member m1 = new Member("user1", "박미림", "대구 중구 내일동"); //생성자 호출
@@ -37,6 +39,14 @@ public class MemberExample {
 //		m1.name = "Hong";
 //		m1.address = "대구중구 남일동";
 		
+//		Student s1 = new Student(); //co.yedam패키지안의 Student class 접근 가능(public이므로)
+//		s1.name = "Hong";  // name, score가 default로 선언되었기때문에 다른패키지에서 접근 불가능, 에러남 
+//		s1.score = 90; // name, score가 default로 선언되었기때문에 다른패키지에서 접근 불가능, 에러남
+		
+		// public -> 다른 패키지 접근가능
+		// private -> 클래스접근가능 그외 접근불가능
+		// (default) -> 동일한 패키지 접근가능
+
 		
 	}
 }
